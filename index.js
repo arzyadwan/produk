@@ -10,7 +10,7 @@ const produkRouter = require('./routes/routeProduk');
 app.use('/produk', produkRouter);
 
 app.get("/", (req, res) => {
-    return res.status(200).send("Hai there");
+    return res.status(200).send("Hai produk");
   });
 
 app.use(express.json())
